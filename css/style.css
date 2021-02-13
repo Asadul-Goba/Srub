@@ -2,6 +2,7 @@ h2 {
   font-size: 40px;
 }
 .services {
+  padding: 92px 0;
   background-color: #F1F6F0;
 }
 .services p {
@@ -9,11 +10,84 @@ h2 {
   opacity: 0.6;
 }
 .about {
+  padding: 115px 0;
   background-color: #468A39;
+  position: relative;
 }
-.about p {
+.about .text-main {
   font-size: 22px;
   line-height: 45px;
   color: #FFFFFF;
   opacity: 0.7;
+}
+.about .numbers {
+  border-radius: 15px;
+  background: #FFF;
+  height: 120px;
+  width: 84%;
+  position: absolute;
+  top: 85%;
+  padding-left: 6rem;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+.about .numbers-item {
+  margin: 1.5rem 2rem;
+  height: 66px;
+  border-left: 2px solid #468A39;
+}
+.about .numbers-item p {
+  font-size: 15px;
+}
+.special-title {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+.works {
+  padding-top: 8rem;
+  height: 40rem;
+}
+.contacts {
+  margin-top: 55rem;
+  padding-bottom: 10rem;
+}
+.contacts-title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.contacts-block {
+  text-align: center;
+}
+.contacts-block h4 {
+  margin: 1rem 0;
+}
+.contacts-block p {
+  font-size: 20px;
+  color: #000;
+  opacity: 0.6;
+}
+.contacts-block button {
+  border: none;
+  background-color: #468A39;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+footer {
+  display: block;
+  height: 4rem;
+  background-color: #0B0D17;
+  padding-top: 1rem;
+}
+footer h5 {
+  display: inline-block;
+  color: #fff;
+  opacity: 1;
+}
+footer p {
+  color: #fff;
+  opacity: 1;
+  margin-left: 15rem;
+  display: inline-block;
+  text-align: center;
 }
