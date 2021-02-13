@@ -1,0 +1,19 @@
+h2 {
+  font-size: 40px;
+}
+.services {
+  background-color: #F1F6F0;
+}
+.services p {
+  color: #000000;
+  opacity: 0.6;
+}
+.about {
+  background-color: #468A39;
+}
+.about p {
+  font-size: 22px;
+  line-height: 45px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
