@@ -1,5 +1,5 @@
 h2 {
-  font-size: 40px;
+  font-size: 50px;
 }
 .services {
   padding: 65px 0;
@@ -9,9 +9,11 @@ h2 {
   margin-bottom: 3rem;
 }
 .services h3 {
+  font-size: 25px;
   margin: 1.5rem 0;
 }
 .services p {
+  font-size: 18px;
   color: #000000;
   opacity: 0.6;
 }
@@ -26,7 +28,7 @@ h2 {
   opacity: 0.95;
 }
 .about .text-main {
-  font-size: 22px;
+  font-size: 26px;
   line-height: 45px;
   color: #FFFFFF;
   opacity: 0.7;
@@ -46,8 +48,11 @@ h2 {
   height: 66px;
   border-left: 2px solid #468A39;
 }
+.about .numbers-item h4 {
+  font-size: 28px;
+}
 .about .numbers-item p {
-  font-size: 15px;
+  font-size: 16px;
 }
 .works {
   padding-top: 8rem;
@@ -63,7 +68,11 @@ h2 {
   margin-left: 2.4rem;
 }
 .works h3 {
+  font-size: 28px;
   margin-bottom: 1.7rem;
+}
+.works p {
+  font-size: 18px;
 }
 .contacts {
   margin-top: 55rem;
@@ -78,6 +87,7 @@ h2 {
   text-align: center;
 }
 .contacts-block h4 {
+  font-size: 30px;
   margin: 1rem 0;
 }
 .contacts-block p {
@@ -86,6 +96,7 @@ h2 {
   opacity: 0.6;
 }
 .contacts-block button {
+  font-size: 20px;
   margin-top: 3rem;
   padding: 0.3rem 1rem;
   border: none;
